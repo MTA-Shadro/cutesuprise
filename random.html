@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Thought</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hidden iframe for persistent music -->
+    <iframe id="music-frame" src="music.html" style="width: 100%; height: 120px; border: none;"></iframe>
+
+    <div class="container">
+        <h1>You cross my mind</h1>
+        <!-- Add an image -->
+        <img src="random.gif" alt="Random GIF" class="compliment-image">
+        <p>Yezzi mel bleda, t7eb 3al bleda enti. 😏</p>
+        <button onclick="goBack()">Back</button>
+    </div>
+
+    <script>
+        function goBack() {
+            window.location.href = "menu.html";
+        }
+    </script>
+</body>
+</html>
